@@ -45,7 +45,7 @@ python ./code/Synapse/train_synapse.py
 
 Evaluation:
 
-You can download our trained weights for ACDC and Synapse experiments from [this Google Drive link](https://drive.google.com/drive/folders/1LG2hl1fx17_oLQKxRMZeido-TehHFoiF?usp=drive_link).
+You can download our trained weights for ACDC and Synapse experiments from [this Google Drive link](https://drive.google.com/drive/folders/1XlqtLFdwuGxnactvxaqlmjc83-PG-DHY?usp=drive_link).
 Alternatively, you can use your own trained weights and run the corresponding test script to evaluate the model.
 ```powershell
 python ./code/ACDC/test_model.py
