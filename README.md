@@ -1,10 +1,9 @@
 # Code for SA-MGRU: Gate-Aligned Fusion of Self-Attention and Multi-Gate GRU for Medical Image Segmentation
 
 ## Dataset 
-In the case of 2D input, we evaluate the performance of our proposed modules on the following datasets:  
+In the case of input, we evaluate the performance of our proposed modules on the following datasets:  
 - **The synapse dataset can be found at the [repo of TransUNet](https://github.com/Beckschen/TransUNet).**  
-- **ISIC2018 dataset: This dataset focuses on the segmentation of skin lesions [link](https://challenge.isic-archive.com/landing/2018/).**  
-In the case of 3D input, we evaluate the performance of our proposed modules on the following datasets:  
+- **ISIC2018 dataset: This dataset focuses on the segmentation of skin lesions [link](https://challenge.isic-archive.com/landing/2018/).**   
 - **CVC-ClinicDB dataset: This dataset pertains to polyp segmentation in colonoscopy videos and has been used for comparing automatic segmentation methods. [link](https://polyp.grand-challenge.org/CVCClinicDB/).**  
 - **The ACDC dataset can be found at the [repo of MTUNet](https://github.com/Dootmaan/MT-UNet).**  
 
@@ -48,3 +47,10 @@ Evaluation:
 
 You can download our trained weights for ACDC and Synapse experiments from [this Google Drive link](https://drive.google.com/drive/folders/1LG2hl1fx17_oLQKxRMZeido-TehHFoiF?usp=drive_link).
 Alternatively, you can use your own trained weights and run the corresponding test script to evaluate the model.
+```powershell
+python ./code/ACDC/test_model.py
+```
+
+```powershell
+python ./code/Synapse/test_synapse.py
+```
